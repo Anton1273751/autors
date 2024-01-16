@@ -7,11 +7,8 @@ const createAutor = ({
   title,
   description,
   url,
-  source,
+
   image,
-  category,
-  language,
-  country,
   published_at,
 }) => {
   const articleNode = document.createElement("article");
@@ -19,12 +16,8 @@ const createAutor = ({
   articleNode.innerHTML = ` <h3 class="autor__name">${author}</h3>
             <title class="autor__title">${title}</title>
             <p class="autor__description">${description}</p>
-            <a class="autor__url" href="">${url}</a>
-            <p class="autor__sourse">${source}</p>
+            <a  class="autor__url" href="${url}">See more...</a>
             <img class="autor__img" src="${image}" alt="#" />
-            <p class="autor__language">${category}</p>
-            <p class="autor__language">${language}</p>
-            <p class="autor__country">${country}</p>
             <time class="autor__published_at">${published_at}</time>`;
   return articleNode;
 };
