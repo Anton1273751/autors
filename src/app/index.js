@@ -22,7 +22,7 @@ const createAutor = ({
             <div class = "autor__article-evaluation" >
              <button class="autor__like-button">👍</button>
              <span class="like-count">0</span> 
-            </div>  `;
+            </div> `;
   return articleNode;
 };
 
@@ -37,7 +37,6 @@ const renderCard = (news) => {
 // });
 
 renderCard(news);
-
 
 const likeButton = document.querySelector(".autor__like-button");
 const likeCount = document.querySelector(".like-count");
