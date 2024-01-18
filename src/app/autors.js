@@ -41,4 +41,88 @@ export const news = [
     country: "us",
     published_at: "2020-07-31T23:23:14+00:00",
   },
+  {
+    author: "Michael Rothstein",
+    title: "New Lions safety Jayron Kearse suspended three games",
+    description:
+      "Kearse, 26, signed with the Lions in March after four seasons in Minnesota, where he played in 62 games with five starts, making 79 tackles and defending eight passes.",
+    url: "https://www.espn.com/nfl/story/_/id/29572640/new-lions-safety-jayron-kearse-suspended-three-games",
+    source: "ESPN",
+    image:
+      "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0111%2Fr651071_1296x729_16%2D9.jpg",
+    category: "sports",
+    language: "en",
+    country: "us",
+    published_at: "2020-07-31T23:23:14+00:00",
+  },
+  {
+    author: "Michael Rothstein",
+    title: "New Lions safety Jayron Kearse suspended three games",
+    description:
+      "Kearse, 26, signed with the Lions in March after four seasons in Minnesota, where he played in 62 games with five starts, making 79 tackles and defending eight passes.",
+    url: "https://www.espn.com/nfl/story/_/id/29572640/new-lions-safety-jayron-kearse-suspended-three-games",
+    source: "ESPN",
+    image:
+      "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0111%2Fr651071_1296x729_16%2D9.jpg",
+    category: "sports",
+    language: "en",
+    country: "us",
+    published_at: "2020-07-31T23:23:14+00:00",
+  },
+  {
+    author: "Michael Rothstein",
+    title: "New Lions safety Jayron Kearse suspended three games",
+    description:
+      "Kearse, 26, signed with the Lions in March after four seasons in Minnesota, where he played in 62 games with five starts, making 79 tackles and defending eight passes.",
+    url: "https://www.espn.com/nfl/story/_/id/29572640/new-lions-safety-jayron-kearse-suspended-three-games",
+    source: "ESPN",
+    image:
+      "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0111%2Fr651071_1296x729_16%2D9.jpg",
+    category: "sports",
+    language: "en",
+    country: "us",
+    published_at: "2020-07-31T23:23:14+00:00",
+  },
+  {
+    author: "Dan Peck",
+    title: "Hurricane Hanna makes landfall around 5 p.m. on Saturday.",
+    description:
+      "Hurricane Hanna battered southern Texas with sustained winds of 75 mph and continued to deliver heavy rain and flash flooding as it moved inland late Saturday.",
+    url: "https://abcnews.go.com/US/hurricane-hanna-makes-landfall-texas/story?id=71985566",
+    source: "ABC News",
+    image:
+      "https://s.abcnews.com/images/US/hanna-swimmer-mo_hpMain_20200725-163152_2_4x3t_384.jpg",
+    category: "general",
+    language: "en",
+    country: "us",
+    published_at: "2020-07-26T01:04:23+00:00",
+  },
+  {
+    author: "Dan Peck",
+    title: "Hurricane Hanna makes landfall around 5 p.m. on Saturday.",
+    description:
+      "Hurricane Hanna battered southern Texas with sustained winds of 75 mph and continued to deliver heavy rain and flash flooding as it moved inland late Saturday.",
+    url: "https://abcnews.go.com/US/hurricane-hanna-makes-landfall-texas/story?id=71985566",
+    source: "ABC News",
+    image:
+      "https://s.abcnews.com/images/US/hanna-swimmer-mo_hpMain_20200725-163152_2_4x3t_384.jpg",
+    category: "general",
+    language: "en",
+    country: "us",
+    published_at: "2020-07-26T01:04:23+00:00",
+  },
+  {
+    author: "Dan Peck",
+    title: "Hurricane Hanna makes landfall around 5 p.m. on Saturday.",
+    description:
+      "Hurricane Hanna battered southern Texas with sustained winds of 75 mph and continued to deliver heavy rain and flash flooding as it moved inland late Saturday.",
+    url: "https://abcnews.go.com/US/hurricane-hanna-makes-landfall-texas/story?id=71985566",
+    source: "ABC News",
+    image:
+      "https://s.abcnews.com/images/US/hanna-swimmer-mo_hpMain_20200725-163152_2_4x3t_384.jpg",
+    category: "general",
+    language: "en",
+    country: "us",
+    published_at: "2020-07-26T01:04:23+00:00",
+  },
 ];

@@ -13,12 +13,14 @@ const createAutor = ({
 }) => {
   const articleNode = document.createElement("article");
   articleNode.className = "autor";
+  let publicDate = new Date(Date.parse(published_at));
+
   articleNode.innerHTML = ` <strong class="autor__name">${author}</strong>
             <title class="autor__title">${title}</title>
             <p class="autor__description">${description}</p>
             <a  class="autor__url" href="${url}">See more...</a>
             <img class="autor__img" src="${image}" alt="#" />
-            <time class="autor__published_at">${published_at}</time>`;
+            <time class="autor__published_at">${publicDate}</time>`;
   return articleNode;
 };
 

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lemon&family=Nunito:wght@300;400&family=Roboto:wght@100&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -140,13 +142,13 @@ button {
 .autors {
   position: relative;
   background-color: lightgrey;
-  padding: 10px 10px;
+  padding: 30px 10px;
 }
 .autors__wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 22px;
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
 }
 
 .autor {
@@ -158,13 +160,20 @@ button {
   max-width: 300px;
   height: 100%;
   padding: 24px 24px;
-  border-radius: 24px;
+  border-radius: 30px;
   border: 1px solid #dee2e6;
   background: #fff;
+}
+.autor__name {
+  font-family: "lemon";
+}
+.autor__description {
+  font-family: "Instrument Serif";
 }
 .autor__img {
   max-width: 250px;
   max-height: 180px;
+  border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
