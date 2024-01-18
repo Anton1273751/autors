@@ -13,7 +13,7 @@ const createAutor = ({
   const articleNode = document.createElement("article");
   articleNode.className = "autor";
   let publicDate = new Date(Date.parse(published_at));
-  articleNode.innerHTML = ` <strong class="autor__name">${author}</strong>
+articleNode.innerHTML = ` <strong class="autor__name">${author}</strong>
             <title class="autor__title">${title}</title>
             <p class="autor__description">${description}</p>
             <a  class="autor__url" href="${url}">See more...</a>
@@ -29,16 +29,7 @@ const createAutor = ({
 const renderCard = (news) => {
   autorsNode.innerHTML = "";
   news.forEach((element) => autorsNode.append(createAutor(element)));
-  const likeButton = document.querySelector(".autor__like-button");
-  const likeCount = document.querySelector(".like-count");
-  likeButton.addEventListener("click", like);
-  let count = 0;
-  function like() {
-    count++;
-    likeCount.innerHTML = `${count}`;
-  }
 };
-
 // document.addEventListener("click", function (el) {
 //   if (el.target.dataset.counter != undefined) {
 //     el.target.value++;
@@ -46,3 +37,12 @@ const renderCard = (news) => {
 // });
 
 renderCard(news);
+
+const likeButton = document.querySelector(".autor__like-button");
+const likeCount = document.querySelector(".like-count");
+likeButton.addEventListener("click", like);
+let count = 0;
+function like() {
+  count++;
+  likeCount.innerHTML = `${count}`;
+}
