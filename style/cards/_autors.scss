@@ -38,4 +38,16 @@
     object-position: center;
     background: lightgrey;
   }
+
+  &__article-evaluation {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  &__like {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 1000px;
+  }
 }

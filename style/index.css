@@ -179,4 +179,15 @@ button {
   -o-object-position: center;
      object-position: center;
   background: lightgrey;
+}
+.autor__article-evaluation {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.autor__like {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 1000px;
 }/*# sourceMappingURL=index.css.map */
