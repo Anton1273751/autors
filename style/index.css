@@ -185,7 +185,7 @@ button {
   align-items: center;
   gap: 5px;
 }
-.autor__like {
+.autor__like-button {
   cursor: pointer;
   width: 30px;
   height: 30px;
