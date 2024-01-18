@@ -173,7 +173,7 @@ button {
 .autor__img {
   max-width: 250px;
   max-height: 180px;
-  border-radius: 10px;
+  border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
